@@ -61,6 +61,7 @@
                 android:text="Enter" />
 
             <RelativeLayout
+                android:id="@+id/nameBoxLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/buttonEnterName"
@@ -89,6 +90,16 @@
                     android:textSize="50dp" />
 
             </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nameBoxLayout"
+                android:layout_centerHorizontal="true"
+                android:text="Aurelijus Pošius"
+                android:textSize="25dp"
+                android:layout_marginVertical="10dp"/>
+
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>
